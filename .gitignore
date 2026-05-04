@@ -1,0 +1,11 @@
+.github/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.DS_Store
+node_modules/
+
+# Keep website source files and docs for deployment
