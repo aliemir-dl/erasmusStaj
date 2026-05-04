@@ -9,7 +9,7 @@ title: Ana Sayfa
             <p class="eyebrow">Öğrenciler için Erasmus Desteği</p>
             <h1>Erasmus programlarını, başvuru rehberliğini ve yurt dışı eğitim tavsiyelerini keşfedin.</h1>
             <p>Web sitemiz, öğrencilerin Erasmus fırsatlarını anlamasına, seçenekleri karşılaştırmasına ve bir sonraki akademik adımlarında kendinden emin olmasına yardımcı olur.</p>
-            <img class="hero-image" src="images/erasmus-hero.svg" alt="Erasmus öğrencisi ve Avrupa haritası" />
+            <img class="hero-image" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Erasmus öğrencileri kampüste" />
             <div class="hero-actions">
                 <a class="button primary" href="opportunities.html">Fırsatları Keşfet</a>
                 <a class="button secondary" href="consulting.html">Danışmanlığı Öğren</a>
