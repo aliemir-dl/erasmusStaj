@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Blog
+title: Yazılar
 ---
 
 <section class="page-hero">
     <div class="container">
         <div>
-            <h1>Blog</h1>
+            <h1>Yazılar</h1>
             <p>Erasmus hakkında en son fikirlerimizi, ipuçlarımızı ve öğrenci tavsiyelerimizi okuyun.</p>
         </div>
     </div>
