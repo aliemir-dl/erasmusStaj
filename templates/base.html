@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erasmus Student Consultancy</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-row">
+            <a class="brand" href="/">{{ site_name }}</a>
+            <nav class="primary-nav">
+                {% for item in navigation %}
+                    <a href="/{{ item.endpoint if item.endpoint != 'home' else '' }}">{{ item.label }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Erasmus Guide. Helping students navigate Erasmus programs.</p>
+        </div>
+    </footer>
+</body>
+</html>

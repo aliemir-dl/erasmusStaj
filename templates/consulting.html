@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="page-hero">
+    <div class="container">
+        <h1>Consulting Services</h1>
+        <p>Learn how Erasmus consulting helps you choose the right study path and navigate administrative requirements.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="card-grid">
+            {% for service in services %}
+            <article class="card">
+                <h3>{{ service.title }}</h3>
+                <p>{{ service.description }}</p>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

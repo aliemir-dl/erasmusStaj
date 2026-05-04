@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="page-hero">
+    <div class="container">
+        <div class="hero-copy">
+            <p class="eyebrow">Erasmus Support for Students</p>
+            <h1>Discover Erasmus programs, application guidance, and study abroad advice.</h1>
+            <p>Our website helps students understand Erasmus opportunities, compare options, and feel confident about their next academic move.</p>
+            <div class="hero-actions">
+                <a class="button primary" href="/opportunities">Explore Opportunities</a>
+                <a class="button secondary" href="/consulting">Learn About Consulting</a>
+            </div>
+        </div>
+        <div class="hero-card">
+            <h2>How this site helps</h2>
+            <ul>
+                <li>Clear Erasmus program overviews</li>
+                <li>Advice on university selection and credit transfer</li>
+                <li>Practical tips for living and studying abroad</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container overview-grid">
+        {% for highlight in highlights %}
+        <article class="card highlight-card">
+            <h3>{{ highlight.title }}</h3>
+            <p>{{ highlight.description }}</p>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="section contact-section">
+    <div class="container contact-grid">
+        <div>
+            <h2>Start exploring Erasmus today</h2>
+            <p>Learn the steps to apply, choose a host university, and make the most of your time abroad.</p>
+        </div>
+        <a class="button secondary" href="/contact">Contact Us</a>
+    </div>
+</section>
+{% endblock %}

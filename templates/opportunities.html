@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="page-hero">
+    <div class="container">
+        <h1>Erasmus Opportunities</h1>
+        <p>Find the most common Erasmus formats and choose the one that fits your academic goals.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="card-grid">
+            {% for item in opportunities %}
+            <article class="card">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.detail }}</p>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
