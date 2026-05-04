@@ -87,6 +87,15 @@ a {
     max-width: 40rem;
 }
 
+.hero-image {
+    display: block;
+    width: 100%;
+    max-width: 28rem;
+    margin: 1.5rem 0;
+    border-radius: 1.25rem;
+    box-shadow: 0 25px 60px rgba(15, 23, 42, 0.16);
+}
+
 .hero-actions {
     display: flex;
     gap: 1rem;
