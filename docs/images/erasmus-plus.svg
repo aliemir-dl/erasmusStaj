@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450">
+  <rect width="1200" height="450" fill="#ffffff" rx="32" />
+  <rect x="60" y="60" width="420" height="240" fill="#003399" rx="24" />
+  <g fill="#ffcc00" transform="translate(120 120)">
+    <circle cx="0" cy="0" r="18" />
+    <circle cx="90" cy="0" r="18" />
+    <circle cx="180" cy="0" r="18" />
+    <circle cx="45" cy="62" r="18" />
+    <circle cx="135" cy="62" r="18" />
+    <circle cx="0" cy="124" r="18" />
+    <circle cx="90" cy="124" r="18" />
+    <circle cx="180" cy="124" r="18" />
+    <circle cx="45" cy="186" r="18" />
+    <circle cx="135" cy="186" r="18" />
+  </g>
+  <text x="530" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="110" fill="#003399" font-weight="700">Erasmus</text>
+  <text x="530" y="265" font-family="Segoe UI, Arial, sans-serif" font-size="110" fill="#003399" font-weight="700">+</text>
+  <text x="530" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="45" fill="#4f46e5">Yurt dışı öğrenim rehberiniz</text>
+  <rect x="60" y="340" width="710" height="60" rx="30" fill="#eef2ff" />
+</svg>
