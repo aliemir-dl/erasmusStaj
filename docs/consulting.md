@@ -15,16 +15,20 @@ title: Danışmanlık
 <section class="section">
     <div class="container card-grid">
         <article class="card">
-            <h3>Üniversite seçimi</h3>
-            <p>Ev sahibi kurumları, akademik uygunlukları ve Erasmus anlaşmalarını karşılaştırın.</p>
+            <h3>📄 Kabul Mektubu Danışmanlığı</h3>
+            <p>Kabul mektuplarınızı hazırlayın ve optimize edin.</p>
         </article>
         <article class="card">
-            <h3>Kredi transfer desteği</h3>
-            <p>Ders yükünüzü, kredilerin sorunsuz şekilde evinize transfer edilmesini sağlayacak şekilde planlayın.</p>
+            <h3>🎓 Lisans & Yüksek Lisans Danışmanlığı</h3>
+            <p>Lisans ve yüksek lisans programları için rehberlik alın.</p>
         </article>
         <article class="card">
-            <h3>Başvuru kontrol listesi</h3>
-            <p>Gereken belgeler, son tarihler ve uygunluk adımlarını içeren net bir listeyi takip edin.</p>
+            <h3>🛂 Schengen & Uzun Dönem Vize Danışmanlığı</h3>
+            <p>Schengen ve uzun dönem vizeler için danışmanlık.</p>
+        </article>
+        <article class="card">
+            <h3>✈️ Erasmus+ Staj Hareketliliği</h3>
+            <p>Erasmus+ staj hareketliliği fırsatlarını keşfedin.</p>
         </article>
     </div>
 </section>
