@@ -29,14 +29,17 @@ title: Ana Sayfa
 <section class="section">
     <div class="container overview-grid">
         <article class="card highlight-card">
+            <img src="images/erasmusplus.png" alt="Erasmus+ logosu" class="section-image" />
             <h3>Program rehberliği</h3>
             <p>Doğru Erasmus rotasını, partner üniversiteyi ve çalışma planını bulun.</p>
         </article>
         <article class="card highlight-card">
+            <img src="images/erasmusworld.png" alt="Erasmus dünya haritası" class="section-image" />
             <h3>Başvuru tavsiyeleri</h3>
             <p>Belgeleri hazırlayın, motivasyon mektubunuzu uyarlayın ve son tarihlere uyun.</p>
         </article>
         <article class="card highlight-card">
+            <img src="images/erasmusplus.png" alt="Erasmus+ logosu" class="section-image" />
             <h3>Yurt dışı yaşam desteği</h3>
             <p>Konaklama, kültür ve akademik başarı için pratik ipuçları alın.</p>
         </article>
